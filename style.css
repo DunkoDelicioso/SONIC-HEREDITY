@@ -1,0 +1,144 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: rgb(255, 136, 136);
+  font-size:1vw;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+
+  
+}
+canvas {
+  display: flex;
+  flex: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+.slider {
+  /* transform: translate(0%, 0%); */
+  -webkit-appearance: none;
+  width: 80%;
+  height: .5vw;
+  background: #000;
+  outline: none;
+  /* border: 5px solid white; */
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* for chrome/safari */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 1.5vw;
+  height: 5vw;
+  background: white;
+  cursor: pointer;
+  /* border: 5px solid white; */
+  border-radius: 10px;
+}
+
+/* for firefox */
+.slider::-moz-range-thumb {
+  width: 1.5vw;
+  height: 5vw;
+  background: white;
+  cursor: pointer;
+  /* border: 5px solid white; */
+  border-radius: 10px;
+}
+
+.slider1 {
+  /* transform: translate(0%, 250%); */
+  -webkit-appearance: none;
+  width: 80%;
+  height: .5vw;
+  background: #000;
+  outline: none;
+  /* border: 5px solid white; */
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* for chrome/safari */
+.slider1::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 1.5vw;
+  height: 5vw;
+  background: white;
+  cursor: pointer;
+  /* border: 5px solid white; */
+  border-radius: 10px;
+}
+
+/* for firefox */
+.slider1::-moz-range-thumb {
+  width: 1.5vw;
+  height: 5vw;
+  background: white;
+  cursor: pointer;
+  /* border: 5px solid white; */
+  border-radius: 10px;
+}
+
+
+.slider2 {
+  /* transform: translate(0%, 500%); */
+  -webkit-appearance: none;
+  width: 80%;
+  height: .5vw;
+  background: #000;
+  outline: none;
+  /* border: 5px solid white; */
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* for chrome/safari */
+.slider2::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 1.5vw;
+  height: 5vw;
+  background: white;
+  cursor: pointer;
+  /* border: 5px solid white; */
+  border-radius: 10px;
+}
+
+/* for firefox */
+.slider2::-moz-range-thumb {
+  width: 1.5vw;
+  height: 5vw;
+  background: white;
+  cursor: pointer;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+.container{
+  width: 100%;
+  height: auto;
+
+}
+
+.box{
+  width: 100%;
+  height: auto;
+}
+
+.text{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  padding: 5%;
+}
+
