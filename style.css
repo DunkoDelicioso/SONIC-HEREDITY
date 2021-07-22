@@ -37,8 +37,8 @@ canvas {
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  width: 1.5vw;
-  height: 5vw;
+   width: 5vw;
+  height: 6vw;
   background: white;
   cursor: pointer;
   /* border: 5px solid white; */
@@ -47,8 +47,8 @@ canvas {
 
 /* for firefox */
 .slider::-moz-range-thumb {
-  width: 1.5vw;
-  height: 5vw;
+  width: 5vw;
+  height: 6vw;
   background: white;
   cursor: pointer;
   /* border: 5px solid white; */
@@ -71,8 +71,8 @@ canvas {
 .slider1::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  width: 1.5vw;
-  height: 5vw;
+  width: 5vw;
+  height: 6vw;
   background: white;
   cursor: pointer;
   /* border: 5px solid white; */
@@ -81,8 +81,8 @@ canvas {
 
 /* for firefox */
 .slider1::-moz-range-thumb {
-  width: 1.5vw;
-  height: 5vw;
+  width: 5vw;
+  height: 6vw;
   background: white;
   cursor: pointer;
   /* border: 5px solid white; */
@@ -106,8 +106,8 @@ canvas {
 .slider2::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  width: 1.5vw;
-  height: 5vw;
+  width: 5vw;
+  height: 6vw;
   background: white;
   cursor: pointer;
   /* border: 5px solid white; */
@@ -116,8 +116,8 @@ canvas {
 
 /* for firefox */
 .slider2::-moz-range-thumb {
-  width: 1.5vw;
-  height: 5vw;
+  width: 5vw;
+  height: 6vw;
   background: white;
   cursor: pointer;
   border: 5px solid white;
